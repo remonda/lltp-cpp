@@ -1,0 +1,20 @@
+CompileFlags:
+  Add: [
+    -std=c++17,
+    -DDEBUG,
+    -g,
+    -Wl,
+    -Wall,
+    -Wextra,
+    -Wno-missing-prototypes,
+    -I.,
+    -I..,
+    -I./include,
+    -I/usr/include,
+    -I/usr/local/include,
+    -L/usr/lib,
+    -L/usr/local/lib,
+    -lpthread,
+    -lglog,
+    -lgflags
+    ]
